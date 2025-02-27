@@ -1,0 +1,79 @@
+/* Base Styles */
+.portal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* User Portal Specific */
+.user-portal {
+  background: #f0f8ff;
+}
+
+/* Official Portal Specific */
+.official-portal {
+  background: #f0fff0;
+}
+
+.complaint-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.complaints-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.complaint-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.status-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.status-badge.Pending {
+  background: #ffeb3b;
+}
+
+.status-badge.Resolved {
+  background: #4caf50;
+  color: white;
+}
+
+.response-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 500px;
+}

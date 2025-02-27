@@ -1,0 +1,71 @@
+.portal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.userPortal {
+    background: #f0f8ff;
+}
+
+.portalContent {
+    display: grid;
+    gap: 2rem;
+}
+
+.complaintForm {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.formGroup {
+    margin-bottom: 1rem;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formGroup textarea {
+    min-height: 100px;
+}
+
+.complaintsList {
+    display: grid;
+    gap: 1rem;
+}
+
+.complaintCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statusBadge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.statusBadge.pending {
+    background: #ffeb3b;
+}
+
+.statusBadge.resolved {
+    background: #4caf50;
+    color: white;
+}

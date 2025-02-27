@@ -1,0 +1,51 @@
+.portal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.officialPortal {
+    background: #f0fff0;
+}
+
+.portalHeader {
+    margin-bottom: 2rem;
+}
+
+.stats {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.complaintsList {
+    display: grid;
+    gap: 1rem;
+}
+
+.complaintCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statusBadge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.statusBadge.pending {
+    background: #ffeb3b;
+}
+
+.statusBadge.resolved {
+    background: #4caf50;
+    color: white;
+}
+
+.cardActions {
+    margin-top: 1rem;
+    text-align: right;
+}
